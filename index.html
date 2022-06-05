@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yawbs | Yet another weird bio shortener</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="nav-container blur">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#" class="link-logo"></a>
+                </li>
+
+                <li>
+                    <button onclick="clipboardShare()" onmouseout="outFunc()" class="link-share-page">
+                        <span class="tooltiptext" id="myTooltip"></span>
+                    </button>
+                </li>
+            </ul>
+
+            <ul class="desktop-nav">
+                <li>
+                    <a href="#" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="#">news</a>
+                </li>
+                <li>
+                    <a href="#">create</a>
+                </li>
+                <li>
+                    <a href="#">contact</a>
+                </li>
+                <li>
+                    <a href="#">wiki</a>
+                </li>
+                <li>
+                    <button onclick="clipboardShare()" onmouseout="outFunc()" class="link-share-page">
+                        <span class="tooltiptext" id="myTooltip"></span>
+                    </button>
+                </li>
+            </ul>
+        </nav>  
+    </div>
+    
+    <!-- End of navigation menu items -->  
+
+    <div class="hero">
+        <h3>WELCOME TO</h3>
+        <h1>Yet another weird bio shortener</h1>
+        <h6>unfinished lol</h6>
+    </div>
+
+
+    <div class="overlay"></div>
+    <input type="text" value="https://yawbs.github.io/" id="shareLink">
+    <script src="scripts/main.js"></script>
+</body>
+</html>
